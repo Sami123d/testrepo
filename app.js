@@ -8,14 +8,7 @@ class PersonAccount{
         this.expenses=expenses;
         }
       
-        totalincome(){
-            let total=0;
-                for(let j in this.incomes){
-                 total=total+this.incomes[j]
-                
-            }
-        return console.log(`totalIncome ${total}`)
-        }
+        
         totoalexpense(){
             let totalexp=0;
             for(let j in this.expenses){
@@ -23,6 +16,14 @@ class PersonAccount{
             
         }
            return console.log(`totalexpense ${totalexp}`)
+        }
+    totalincome(){
+            let total=0;
+                for(let j in this.incomes){
+                 total=total+this.incomes[j]
+                
+            }
+        return console.log(`totalIncome ${total}`)
         }
         accountinfo(){
             let totalexp=0;
